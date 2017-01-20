@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="searchWhat">
+        <item>楼盘</item>
+        <item>租赁</item>
+        <item>二手房</item>
+        <item>新闻</item>
+    </string-array>
+
+    <string name="app_name"> <!-- 好来屋 -->房买卖 </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_tab1">首页</string>
+    <string name="text_tab2">楼盘</string>
+    <!-- <string name="text_tab3">新闻</string> -->
+    <string name="text_tab3">发现</string>
+    <string name="text_tab4">我的</string>
+    <string name="pointMessage">温馨提示</string>
+    <string name="my_cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="login">登录</string>
+    <string name="regist">注册</string>
+    <string name="avatar">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="name">真实姓名</string>
+    <string name="sex">性别</string>
+    <string name="year">年龄</string>
+    <string name="phonelink">联系方式</string>
+    <string name="user_stype">用户类型</string>
+    <string name="my_finish">完成</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="alter_pwd_label">修改密码：</string>
+    <string name="confirm_pwd_label">确认密码：</string>
+    <string name="confirm_alter">确认修改</string>
+    <!-- 我的界面 -->
+    <string name="my_score">我的积分</string>
+    <string name="my_commission">我的佣金</string>
+    <string name="account_msg">账户信息</string>
+    <string name="msg_center">消息中心</string>
+    <string name="my_recommend">我的推荐</string>
+    <string name="bankno">银行卡号</string>
+    <string name="my_team">我的团队</string>
+    <string name="my_follow">我的收藏</string>
+    <string name="my_appraisal">我的评论</string>
+    <string name="onkeyshare">一键分享</string>
+    <string name="sys_settings">系统设置</string>
+    <string name="user_msgcenter_title">个人信息</string>
+    <string name="user_loin_title">用户登录</string>
+    <string name="user_regist_title">用户注册</string>
+    <string name="phoneno_label">手    机    号：</string>
+    <string name="newpwd_label">新密码：</string>
+    <string name="forgetpwd">忘记密码</string>
+    <string name="okpwd_label">确认密码：</string>
+    <string name="getverification">获取验证码</string>
+    <string name="name_label">账号：</string>
+    <string name="pwd_label">密码：</string>
+    <string name="news_shoucangchenggong">收藏成功！</string>
+    <string name="news_quxaioshouchagncheng">取消收藏成功！</string>
+    <string name="news_details_comment">写评论</string>
+    <string name="news_details_send">发送</string>
+    <string name="comment_list">评论列表</string>
+    <!-- <string name="house_news">房产新闻</string> -->
+    <string name="house_news">发现</string>
+    <string name="my_attention">我的收藏</string>
+    <string name="input_comment_content">请输入评论内容!</string>
+    <string name="delete_defeated">删除失败!</string>
+    <string name="delete_succeed">删除成功!</string>
+    <string name="message_content">消息内容</string>
+    <string name="delete">删除</string>
+    <string name="please_use">我发现了一个很好用的APP房买卖,立刻下载体验!</string>
+    <string name="lianwangshibai">网络连接失败，请检查网络!</string>
+    <string name="dialog_loading">正在努力加载中...</string>
+    <string name="jifenguice_content">房买卖积分规则\n一，如何获取积分\n     1，注册经纪人成功推荐一个客户成交（以签约为准），赚取1000积分；\n     2，更多赚取积分方式，敬请期待。\n二、如何使用积分\n     1，10个积分=1元（人民币）；\n     2，点击我的积分，进入积分详情，点击兑换即可兑换现金。\n三、注：其他积分问题\n     1，您推荐的房源经过房买卖确认成交，将获取相应积分；\n     2，获取积分最终解释权权归房买卖所有。</string>
+    <string name="yingjinguice_content">提示：我们将在收到提现申请后7个工作日内，将相应款项汇入用户绑定的银行账户内，具体到账时间以银行方面为准。备注：此佣金为税前金额</string>
+    <string name="woyao_tishi_content">本推荐客户提交后，可能在任意合作楼盘成交，但不可再次进行精准楼盘推荐，被推荐客户在合作楼盘成交后，将根据该合作楼盘的实时佣金结算，客户成交状态可在我的推荐中查看</string>
+    <string name="wodeyongjing_tishi_content">我们将在收到提现申请后7个工作日内，将相应款项汇入用户绑定的银行账户内，具体到账时间以银行方面为准。</string>
+    <string name="wodeyongjing_beizhu">此佣金为税前金额</string>
+
+</resources>

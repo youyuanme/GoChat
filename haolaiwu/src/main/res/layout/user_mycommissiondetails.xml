@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@color/title_bgcolor"
+    >
+    <ImageView 
+        android:padding="@dimen/padding10"
+        android:layout_centerVertical="true"
+        android:onClick="back"
+        android:src="@drawable/img_left_white"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+ 	<TextView 
+ 	    android:textStyle="bold"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:textColor="@color/title_textcolor"
+ 	    android:textSize="@dimen/title_textsize"
+ 	    android:layout_centerInParent="true"
+ 	    android:text="酬金详情"/>
+ 	 	
+</RelativeLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#f1f1f1"
+    android:orientation="horizontal" >
+    <TextView 
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="时间"
+         android:layout_height="wrap_content"
+        android:textSize="13sp"/>
+  <TextView 
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="类型"
+         android:layout_height="wrap_content"
+        android:textSize="13sp"/>
+    <TextView 
+        android:gravity="center_horizontal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="获得酬金"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"/>
+</LinearLayout>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        >
+        
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

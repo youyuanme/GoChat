@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#E6E6E6" />
+
+    <LinearLayout
+        style="@style/buildingdetail_infoliststyle"
+        android:layout_marginTop="6dp" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="交房时间：" />
+
+        <TextView
+            android:id="@+id/tv_getbuildtime"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="户型类别：" />
+
+        <TextView
+            android:id="@+id/tv_homecate"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <!--
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="物业类型：" />
+
+        <TextView style="@style/buildingdetail_infolisttextstyle2" android:id="@+id/tv_hometype"/>
+    </LinearLayout>
+    -->
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="建筑类型：" />
+
+        <TextView
+            android:id="@+id/tv_buildtype"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="装修状况：" />
+
+        <TextView
+            android:id="@+id/tv_zhuangxiustatus"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="占地面积：" />
+
+        <TextView
+            android:id="@+id/tv_size"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="建筑面积：" />
+
+        <TextView
+            android:id="@+id/tv_buildsize"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        style="@style/buildingdetail_infoliststyle"
+        android:layout_marginTop="6dp" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="开发商：" />
+
+        <TextView
+            android:id="@+id/tv_bussiness"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="容积率：" />
+
+        <TextView
+            android:id="@+id/tv_sizepercent"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="绿化率：" />
+
+        <TextView
+            android:id="@+id/tv_greenpercent"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="规划户数：" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="停车位数：" />
+
+        <TextView
+            android:id="@+id/tv_carcount"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="车位比率：" />
+
+        <TextView
+            android:id="@+id/tv_carcountpercent"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="产权年限：" />
+
+        <TextView
+            android:id="@+id/tv_houselimit"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="装修标准：" />
+
+        <TextView
+            android:id="@+id/tv_zhuangxiurule"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="物业公司：" />
+
+        <TextView
+            android:id="@+id/tv_propertycompany"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buildingdetail_infoliststyle" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开盘时间："
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_kaipan_time"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        style="@style/buildingdetail_infoliststyle"
+        android:layout_marginTop="6dp" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="生活配套：" />
+
+        <TextView
+            android:id="@+id/tv_lifething"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buildingdetail_infoliststyle"
+        android:layout_marginTop="6dp" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="学区配套：" />
+
+        <TextView
+            android:id="@+id/tv_studentthing"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buildingdetail_infoliststyle"
+        android:layout_marginTop="6dp" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="交通配套：" />
+
+        <TextView
+            android:id="@+id/tv_traficthing"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buildingdetail_infoliststyle"
+        android:layout_marginTop="6dp" >
+
+        <TextView
+            style="@style/buildingdetail_infolisttextstyle1"
+            android:text="医疗配套：" />
+
+        <TextView
+            android:id="@+id/tv_medicthing"
+            style="@style/buildingdetail_infolisttextstyle2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="6dp"
+        android:background="#F5F5F5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="楼盘介绍"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_contruct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/lightGrey" />
+
+</LinearLayout>

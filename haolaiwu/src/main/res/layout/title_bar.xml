@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/txt_bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/btn_Return"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical|left"
+        android:layout_margin="5dp"
+        android:onClick="back"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/btn_Right_Img"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:onClick="add" />
+
+    <TextView
+        android:id="@+id/btn_Right_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:clickable="true"
+        android:onClick="Submit"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</FrameLayout>

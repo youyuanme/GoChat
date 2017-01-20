@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <style name="simpledialog" parent="@android:Theme.Dialog">
+      <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+         
+        
+   <!--        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item> 
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        -->  
+    </style>
+    
+     <style name="inputanimation" parent="android:Animation">  
+        <item name="@android:windowEnterAnimation">@anim/slide_in_from_bottom</item>  //进入时的动画  
+        <item name="@android:windowExitAnimation">@anim/slide_out_to_bottom</item>    //退出时的动画  
+    </style>
+</resources>

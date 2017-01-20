@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/title_bgcolor" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:onClick="back"
+            android:padding="@dimen/padding10"
+            android:src="@drawable/img_left_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/user_msgcenter_title"
+            android:textColor="@color/title_textcolor"
+            android:textSize="@dimen/title_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/option"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/edit"
+            android:textColor="@color/title_textcolor"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bottom_divider"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/user_msgcenter_item_height"
+        android:paddingBottom="@dimen/padding10"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="@dimen/padding10" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/avatar"
+            android:textColor="@color/user_msgcenter_item_textcolor"
+            android:textSize="@dimen/user_msgcenter_item_textsize" />
+
+        <LinearLayout
+            android:id="@+id/avatar1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <com.ybd.app.views.RoundImageView
+                android:id="@+id/avatar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:enabled="false"
+                android:src="@drawable/user_avatar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_msgcenter_item_height"
+        android:background="@drawable/bg_bottom_divider"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nickname"
+            android:textColor="@color/user_msgcenter_item_textcolor"
+            android:textSize="@dimen/user_msgcenter_item_textsize" />
+
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@null"
+            android:enabled="false"
+            android:hint="请输入您的昵称"
+            android:singleLine="true"
+            android:textSize="@dimen/user_item_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_msgcenter_item_height"
+        android:background="@drawable/bg_bottom_divider"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name"
+            android:textColor="@color/user_msgcenter_item_textcolor"
+            android:textSize="@dimen/user_msgcenter_item_textsize" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@null"
+            android:enabled="false"
+            android:hint="请输入您的真实姓名"
+            android:singleLine="true"
+            android:textSize="@dimen/user_item_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_msgcenter_item_height"
+        android:background="@drawable/bg_bottom_divider"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sex"
+            android:textColor="@color/user_msgcenter_item_textcolor"
+            android:textSize="@dimen/user_msgcenter_item_textsize" />
+
+        <TextView
+            android:id="@+id/sextextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="女" />
+
+        <RadioGroup
+            android:id="@+id/sex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:paddingRight="10dp"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:editable="false"
+                android:text="男" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:text="女" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_msgcenter_item_height"
+        android:background="@drawable/bg_bottom_divider"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="出生日期"
+            android:textColor="@color/user_msgcenter_item_textcolor"
+            android:textSize="@dimen/user_msgcenter_item_textsize" />
+
+        <EditText
+            android:id="@+id/birth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@null"
+            android:enabled="false"
+            android:hint="格式：2000/01/01"
+            android:singleLine="true"
+            android:textSize="@dimen/user_item_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_msgcenter_item_height"
+        android:background="@drawable/bg_bottom_divider"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/phonelink"
+            android:textColor="@color/user_msgcenter_item_textcolor"
+            android:textSize="@dimen/user_msgcenter_item_textsize" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@null"
+            android:enabled="false"
+            android:hint="请入输入手机号"
+            android:maxLength="11"
+            android:singleLine="true"
+            android:textSize="@dimen/user_item_textsize" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_msgcenter_item_height"
+        android:background="@drawable/bg_bottom_divider"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/user_stype"
+            android:textColor="@color/user_msgcenter_item_textcolor"
+            android:textSize="@dimen/user_msgcenter_item_textsize" />
+
+        <TextView
+            android:id="@+id/user_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@null"
+            android:enabled="false"
+            android:singleLine="true"
+            android:textSize="@dimen/user_item_textsize" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

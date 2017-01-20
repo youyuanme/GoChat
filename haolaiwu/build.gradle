@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.yibingding.haolaiwu"
+        minSdkVersion 11
+        targetSdkVersion 18
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    //compile project(':androidFramwork')
+    //compile fileTree(include: ['*.jar'], dir: 'libs')
+//    compile 'com.android.support:appcompat-v7:23.3.0'
+//    compile files('libs/alipaySdk-20160223.jar')
+//    compile files('libs/baidumapapi_base_v3_6_1.jar')
+//    compile files('libs/baidumapapi_cloud_v3_6_1.jar')
+//    compile files('libs/baidumapapi_map_v3_6_1.jar')
+//    compile files('libs/baidumapapi_radar_v3_6_1.jar')
+//    compile files('libs/baidumapapi_search_v3_6_1.jar')
+//    compile files('libs/baidumapapi_util_v3_6_1.jar')
+//    compile files('libs/fastjson-1.2.7.jar')
+//    compile files('libs/jpush-android-2.0.5.jar')
+//    compile files('libs/locSDK_6.13.jar')
+//    compile files('libs/MobLogCollector.jar')
+//    compile files('libs/MobTools.jar')
+//    compile files('libs/ShareSDK-Core-2.6.3.jar')
+//    compile files('libs/ShareSDK-QQ-2.6.3.jar')
+//    compile files('libs/ShareSDK-QZone-2.6.4.jar')
+//    compile files('libs/ShareSDK-Wechat-2.6.3.jar')
+//    compile files('libs/ShareSDK-Wechat-Core-2.6.3.jar')
+//    compile files('libs/ShareSDK-Wechat-Moments-2.6.3.jar')
+}

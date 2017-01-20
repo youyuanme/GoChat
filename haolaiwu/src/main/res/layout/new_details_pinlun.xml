@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <com.ybd.app.views.RoundImageView
+        android:id="@+id/news_details_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/default_pic" />
+
+    <TextView
+        android:id="@+id/tv_new_details_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/news_details_image"
+        android:alpha="0.7"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/new_midlittle_text" />
+
+    <TextView
+        android:id="@+id/tv_news_details_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_new_details_name"
+        android:layout_below="@id/tv_new_details_name"
+        android:alpha="0.6"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/new_midlittle_text" />
+
+    <TextView
+        android:id="@+id/tv_news_details_huifu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0.7"
+        android:drawableLeft="@drawable/huifu"
+        android:drawablePadding="2dp" />
+
+    <TextView
+        android:id="@+id/tv_news_details_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_details_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_news_details_content"
+        android:layout_marginTop="10dp"
+        android:background="#CCCCCC" />
+
+</RelativeLayout>

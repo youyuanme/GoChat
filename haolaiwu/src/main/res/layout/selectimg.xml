@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+   <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:background="@drawable/bg_bottom_divider"
+        android:padding="16dp"
+        android:text="上传图片"
+        android:textSize="16sp" /> -->
+
+    <TextView
+        android:id="@+id/selectimg_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/dialogbg_bottom_divider_cornertop"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="拍照"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/selectimg_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/dialogbg_bottom_divider_cornerbottom"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="从相册选择"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/dialogbg_corner"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="取消"
+        android:textSize="16sp" />
+
+</LinearLayout>

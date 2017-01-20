@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- tab 字体颜色 背景色 -->
+    <color name="tabSelect">#DA251C</color>
+    <color name="tabunSelect">#666666</color>
+    <color name="tab_bg">#F2F2F2</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 淡灰色 -->
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+    <color name="lightGrey">#B4B4B4</color>
+    <!-- 对话框 -->
+    <color name="Gray">#e6e6e6</color>
+    <color name="dialogColor">#f0ffffff</color>
+    <color name="dialogTxtColor">#0048fc</color>
+
+    
+    
+    <color name="new_red">#DA251C</color>
+    <color name="title_bgcolor">#DA251C</color>
+    <color name="title_textcolor">#fff</color>
+    
+    <color name="user_item_textcolor">#000</color>
+    <color name="divider_color">#e0e0e0</color>
+    <color name="user_msgcenter_item_textcolor">#f00</color>
+    
+    <color name="manager_selected_color">#eee</color>
+    <color name="callphonecolor">#3F7DD9</color>
+</resources>

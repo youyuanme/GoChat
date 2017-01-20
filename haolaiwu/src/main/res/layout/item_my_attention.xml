@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.yibingding.haolaiwu.view.ListItemDelete
+        android:id="@+id/lid_detele_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_item_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_new_item"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_pic1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/tv_my_attention_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_my_attention_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/tv_my_attention_type"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/tv_my_attention_type"
+                    android:alpha="0.9"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:textSize="@dimen/new_middle_text" />
+
+                <TextView
+                    android:id="@+id/tv_my_attention_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:alpha="0.9" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_my_attention_del"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@color/new_red"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/delete"
+            android:textColor="@android:color/white" />
+    </com.yibingding.haolaiwu.view.ListItemDelete>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DBDBD9" />
+
+</LinearLayout>
