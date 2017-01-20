@@ -102,7 +102,9 @@ public class VDHlayout extends LinearLayout {
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         Log.e(TAG, "onInterceptTouchEvent: ");
-        return viewDragHelper.shouldInterceptTouchEvent(ev);
+        boolean b = viewDragHelper.shouldInterceptTouchEvent(ev);
+        Log.e(TAG, "onInterceptTouchEvent: " + b);
+        return true;
     }
 
     @Override

@@ -164,7 +164,7 @@ public class DemoActivity extends AppCompatActivity {
             }
         });
     }
-/*
+
     @OnClick({R.id.textView1, R.id.textView2, R.id.textView3})
     public void onClick(View view) {
         switch (view.getId()) {
@@ -185,7 +185,6 @@ public class DemoActivity extends AppCompatActivity {
 
         }
     }
-    */
 
     /**
      * 合成图片

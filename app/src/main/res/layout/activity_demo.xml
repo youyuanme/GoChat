@@ -54,11 +54,12 @@
 
         <com.sibozn.gochat.view.VDHlayout
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="500dp"
             android:orientation="vertical"
             >
 
             <TextView
+                android:id="@+id/textView1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
@@ -66,6 +67,26 @@
                 android:background="#44ff0000"
                 android:gravity="center"
                 android:text="I can be dragged !"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#4400ff00"
+                android:gravity="center"
+                android:text="I will back to origin pos!"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#440000ff"
+                android:gravity="center"
+                android:text="Use edge tracker to operate me!"/>
         </com.sibozn.gochat.view.VDHlayout>
 
         <com.sibozn.gochat.view.CustomImageView
