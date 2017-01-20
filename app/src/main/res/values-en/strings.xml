@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Go Chat</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="wait_dialog_title">Please wait for a while…</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="welcome_to_gochat">Welcome to GoChat</string>
+    <string name="create_post_hinit">Remember:posting allows nearby users to discover and message you.</string>
+    <string name="create_post">Create post</string>
+    <string name="post_display_value">%1$d/140</string>
+    <string name="post_success">post successful!</string>
+    <string name="exit_string">Then, once out of the program</string>
+    <string name="my_sentre">My Centre</string>
+    <string name="my_sentre_save">Save</string>
+    <string name="my_centre_logout">Logout</string>
+    <string name="my_centre_female">Female</string>
+    <string name="my_centre_male">Male</string>
+    <string name="my_centre_gender">Gender:</string>
+    <string name="my_centre_age_hint">Please enter the age.</string>
+    <string name="my_centre_age">Age:</string>
+    <string name="my_centre_nickname">Please enter nickname.</string>
+    <string name="my_center_nickname">Nickname:</string>
+    <string name="my_centre_avatar">Avatar:</string>
+    <string name="update_avatar_error">Upload pictures failure .</string>
+    <string name="save_error">Save failure.</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="pick_from_gallery">Pick from Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_gifs_online">Search GIFs Online</string>
+    <string name="search_gifs_hint">search</string>
+    <string name="send_content">Whether to send the message.</string>
+    <string name="send_message">Message</string>
+    <string name="no_send_post_message">You post this message</string>
+    <string name="no_gifs_data">No More Data!</string>
+    <string name="rv_with_footer_pull_load_more">Pull or click to load more</string>
+    <string name="rv_with_footer_loading">Loading…</string>
+    <string name="rv_with_footer_empty">No Data!</string>
+    <string name="login_email_hint">Please enter the email address</string>
+    <string name="login_password_hint">Password(6-15 chars)</string>
+    <string name="main_title">Home</string>
+    <string name="history_title">Message</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="web_socket_loading">Loading WebSocket ...</string>
+    <string name="exclamation_point">!</string>
+    <string name="qing_lian_jei_wang_luo">Please connect to the Internet!</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="show_network_out">Offline, please check the network.</string>
+    <string name="chat">chat</string>
+    <string name="facebook_app_id">109870599485632</string>
+    <string name="my_web_string">我的博客</string>
+    <string name="welcome_string">欢迎光临</string>
+    <string name="back">back</string>
+    <string name="about">关于</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <group>
+        <item
+            android:id="@+id/navigation_item_home"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/main_title"/>
+        <item
+            android:id="@+id/navigation_item_blog"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/my_web_string"
+            android:visible="false"/>
+        <item
+            android:id="@+id/navigation_item_about"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/about"
+            android:visible="false"/>
+    </group>
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:id="@+id/navigation_sub_item1"
+                android:checkable="true"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Sub item 1"
+                android:visible="false"/>
+            <item
+                android:id="@+id/navigation_sub_item2"
+                android:checkable="true"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Sub item 2"
+                android:visible="false"/>
+        </menu>
+    </item>
+</menu>

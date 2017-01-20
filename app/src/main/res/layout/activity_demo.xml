@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<com.sibozn.gochat.view.VDHlayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#44ff0000"
+        android:gravity="center"
+        android:text="I can be dragged !"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#4400ff00"
+        android:gravity="center"
+        android:text="I will back to origin pos!"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#440000ff"
+        android:gravity="center"
+        android:text="Use edge tracker to operate me!"/>
+</com.sibozn.gochat.view.VDHlayout>-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".activity.DemoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.sibozn.gochat.view.VDHlayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#44ff0000"
+                android:gravity="center"
+                android:text="I can be dragged !"/>
+        </com.sibozn.gochat.view.VDHlayout>
+
+        <com.sibozn.gochat.view.CustomImageView
+            android:id="@+id/customIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/originalIv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+
+            />
+
+        <EditText
+            android:id="@+id/et_weizhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="文件位置"
+            android:text="/storage/emulated/0/Download"/>
+
+        <Button
+            android:id="@+id/bt_jeiya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="解压缩到当前目录"/>
+
+        <Button
+            android:id="@+id/bt_upData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传图片"/>
+
+
+        <com.sibozn.gochat.view.TipView
+            android:id="@+id/tip_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE4B5"
+            />
+
+        <com.sibozn.gochat.view.LooperTextView
+            android:id="@+id/looperview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ffff"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="上下轮播"
+            android:textColor="@color/red"
+            android:textSize="20sp"/>
+
+        <com.sibozn.gochat.view.TaiJiView
+            android:id="@+id/taijiview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="太极"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            />
+
+        <com.sibozn.gochat.view.ClockView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="钟表"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            />
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:paddingLeft="10px"
+            android:paddingRight="10px"
+            />
+
+        <com.sibozn.gochat.view.CarRecorderView
+            android:id="@+id/carview"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_margin="5dp"
+            android:background="@color/blue"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="仿汽车仪表盘"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</ScrollView>

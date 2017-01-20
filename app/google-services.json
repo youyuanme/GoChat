@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "58448901123",
+    "firebase_url": "https://tensile-stack-137623.firebaseio.com",
+    "project_id": "tensile-stack-137623",
+    "storage_bucket": "tensile-stack-137623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58448901123:android:91aa8f0d870df028",
+        "android_client_info": {
+          "package_name": "com.sibozn.gochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58448901123-f1bk2398eqm9ot7cvbl2angl9kuvcq6b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sibozn.gochat",
+            "certificate_hash": "E2FCCE440D740BDE3141C41FB9B72002C7F8803E"
+          }
+        },
+        {
+          "client_id": "58448901123-4mu0dpdm1ua75357f9k1fmhoeg4sn2ct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlrcuA8OJG4Kezm_WqHBUYmKP-ybhJ-OM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58448901123-4mu0dpdm1ua75357f9k1fmhoeg4sn2ct.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "58448901123-p629o6pbp1seaonv8hasvrf686qums17.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sibozn.gochat"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

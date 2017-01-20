@@ -1,0 +1,71 @@
+<resources>
+    <!--Facebook-->
+    <string name="facebook_app_id">109870599485632</string>
+
+    <string name="app_name">Go Chat</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="wait_dialog_title">Please wait for a while…</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="welcome_to_gochat">Welcome to GoChat</string>
+    <string name="create_post_hinit">Remember:posting allows nearby users to discover and message you.</string>
+    <string name="create_post">Create post</string>
+    <string name="post_display_value">%1$d/140</string>
+    <string name="post_success">post successful!</string>
+    <string name="exit_string">再按一次，退出程序</string>
+    <string name="my_sentre">个人中心</string>
+    <string name="my_sentre_save">保存</string>
+    <string name="my_centre_logout">注销</string>
+    <string name="my_centre_female">女</string>
+    <string name="my_centre_male">男</string>
+    <string name="my_centre_gender">性别:</string>
+    <string name="my_centre_age_hint">请输入年龄</string>
+    <string name="my_centre_age">年龄:</string>
+    <string name="my_centre_nickname">请输入昵称</string>
+    <string name="my_center_nickname">昵称:</string>
+    <string name="my_centre_avatar">头像:</string>
+    <string name="update_avatar_error">上传图片失败</string>
+    <string name="save_error">保存失败！</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_from_gallery">从相册选择</string>
+    <string name="cancel">取消</string>
+    <string name="search_gifs_online">在线搜索GIF图</string>
+    <string name="search_gifs_hint">search</string>
+    <string name="send_content">是否发送消息！</string>
+    <string name="send_message">提示</string>
+    <string name="no_send_post_message">You post this message</string>
+
+    <string name="rv_with_footer_pull_load_more">上拉或点击加载更多</string>
+    <string name="rv_with_footer_loading">加载中…</string>
+    <string name="rv_with_footer_empty">没有数据啦</string>
+    <string name="no_gifs_data">没有更多数据了</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="login_email_hint">请输入邮箱地址</string>
+    <string name="login_password_hint">请输入至少六位密码</string>
+    <string name="main_title">首页</string>
+    <string name="history_title">消息</string>
+    <string name="exclamation_point">!</string>
+    <string name="web_socket_loading">WebSocket 玩命连接...</string>
+    <string name="qing_lian_jei_wang_luo">请连接网络！</string>
+    <string name="login_email">请输入邮箱地址</string>
+    <string name="login_password">请输入至少六位密码</string>
+    <string name="show_network_out">网络不给力,请检查网络设置</string>
+    <string name="chat">聊天</string>
+    <string name="my_web_string">我的博客</string>
+    <string name="welcome_string">欢迎光临</string>
+    <string name="back">back</string>
+    <string name="about">关于</string>
+</resources>

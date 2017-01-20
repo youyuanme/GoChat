@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/header_toolbar"/>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                app:tabIndicatorColor="@color/white"
+                app:tabSelectedTextColor="@color/gray"
+                app:tabTextColor="@color/white"
+                />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/appbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<include-->
+        <!--layout="@layout/header_toolbar"/>-->
+        <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--app:layout_scrollFlags="scroll|enterAlways"/>-->
+
+        <!--<android.support.design.widget.TabLayout-->
+        <!--android:id="@+id/tab_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:tabGravity="fill"/>-->
+        <!--</android.support.design.widget.AppBarLayout>-->
+
+        <!-- FloatingActionButton
+            从名字可以看出它是一个浮动的按钮，
+            它是一个带有阴影的圆形按钮，可以通过fabSize来改变其大小，
+            主要负责界面的基本操作，这个按钮总体来说还是比较简单的。
+            我们来看看它的一些属性：
+                1.默认FloatingActionButton 的背景色是应用主题的 colorAccent
+               （其实MD中的控件主题默认基本都是应用的这个主题），
+               可以通过app:backgroundTint 属性或者setBackgroundTintList
+               (ColorStateList tint)方法去改变背景颜色。
+                2.上面提到 Floating action button 的大小尺寸，
+                可以用过app:fabSize 属性设置（normal or mini）
+                3.android:src 属性改变 drawable
+                4.app:rippleColor设置点击 button 时候的颜色（水波纹效果）
+                6.app:elevation设置普通状态阴影的深度（默认是 6dp）
+                7.app:pressedTranslationZ设置点击状态的阴影深度（默认是 12dp）
+         -->
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/selector_post_bg"
+            app:backgroundTint="#e84b4a"
+            app:borderWidth="2dp"
+            app:fabSize="normal"
+            app:rippleColor="#ff0000"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+    <!--左侧导航菜单-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/layout_navigation_header"
+        app:menu="@menu/drawer"/>
+</android.support.v4.widget.DrawerLayout>

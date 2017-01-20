@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@mipmap/slider_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <TextView
+        android:id="@+id/id_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/welcome_string"/>
+
+    <TextView
+        android:id="@+id/id_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/id_link"
+        android:layout_marginBottom="5dp"
+        android:text="登录状态"
+        android:textSize="18sp"/>
+
+    <!--<com.sibozn.gochat.widget.RoundImageView
+        android:id="@+id/head_portrait"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_above="@id/id_username"
+        android:layout_marginBottom="16dp"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"/>-->
+
+
+    <com.sibozn.gochat.widget.FilterImageView
+        android:id="@+id/head_portrait1"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:elevation="4dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        />
+
+</RelativeLayout>

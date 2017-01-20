@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@mipmap/bg_login"
+             tools:context=".activity.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/logo"/>
+
+            <EditText
+                android:id="@+id/regist_email"
+                android:layout_width="293dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/dialog_mail"
+                android:hint="@string/login_email_hint"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="40dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/regist_password"
+                android:layout_width="293dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/dialog_password"
+                android:hint="@string/login_password_hint"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:paddingLeft="40dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/regester_verify_password"
+                android:layout_width="293dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/dialog_password"
+                android:hint="@string/login_password_hint"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:paddingLeft="40dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                />
+
+            <Button
+                android:id="@+id/bt_fregist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/selector_register_bg"
+                />
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:src="@drawable/selector_register_back_bg"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
